@@ -1,0 +1,84 @@
+body{
+    background-color: #EEEEEE;
+}
+
+.container{
+    position :relative;
+}
+
+.formborder{
+border-radius: 9px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #FFFFFF;
+    box-shadow:  5px 10px 8px 10px #888888;
+    padding: 15px;
+};
+#progress{
+    margin: 0 auto;
+    width: 50%;
+};
+ #image input{
+    width: 4px;
+    background-color: aqua;
+};
+input{
+    border-radius: 14px;
+};
+.stepBtn{
+    margin: 0 auto;
+};
+
+.hr1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+    #submitform{
+    font-size: 25px;
+    padding: 10px 20px;
+    /* margin: 50px 0px 50px 140px; */
+    margin: 0 auto;
+    background-color: rgb(83, 83, 83);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+    #submitform:hover{
+    background-color: black;
+    box-shadow: 0 0 10px rgba(54, 44, 44, 0.5);
+
+}
+
+.addbtn{
+    /* margin: 50px 0px 50px 140px; */
+    background-color: rgb(83, 83, 83);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+    .addbtn:hover{
+    background-color: black;
+    box-shadow: 0 0 10px rgba(54, 44, 44, 0.5);
+
+}
+
+#output{
+cursor: pointer;
+
+}
+
+ #output:hover{
+border-style: dotted;
+border-color: rgb(172, 172, 172);
+ }  
